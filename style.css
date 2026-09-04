@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .head {
@@ -283,8 +288,8 @@
 .cat-options {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .img-1 {
@@ -798,16 +803,25 @@
 }
 .heart{
     position: relative;
-    left: 200px;
+    left: 220px;
     top: 10px;
     display: flex;
-    background-color: white;
     border-radius: 50%;
     width: 30px;
     height: 25px;
-    align-items: center;
     padding: 10px;
     font-size: 25px;
+    align-items: center;
+    text-align: center;
+}
+.heart a{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+    width: 35px;
+    height: 30px;
+    font-size: 28px;
 }
 .many1{
     margin-top: 20px;
